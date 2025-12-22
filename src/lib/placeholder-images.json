@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract makeup textures on a dark background",
+      "imageUrl": "https://images.unsplash.com/photo-1751512696922-e9d6aa9a7840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYWtldXAlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NjYzOTc5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "makeup abstract"
+    },
+    {
+      "id": "ysl-lipstick-1",
+      "description": "YSL Rouge Pur Couture Lipstick product shot",
+      "imageUrl": "https://images.unsplash.com/photo-1752327091269-56857d148787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "dior-lipstick-1",
+      "description": "Dior Addict Shine Lipstick product shot",
+      "imageUrl": "https://images.unsplash.com/photo-1706821722700-842cb7329a08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "armani-lipstick-1",
+      "description": "Giorgio Armani Lip Power Lipstick product shot",
+      "imageUrl": "https://images.unsplash.com/photo-1752327091116-64c11c6521db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "ct-lipstick-1",
+      "description": "Charlotte Tilbury Matte Revolution Lipstick product shot",
+      "imageUrl": "https://images.unsplash.com/photo-1752327091269-56857d148787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "ysl-eyeshadow-1",
+      "description": "YSL Couture Mini Clutch Eyeshadow Palette",
+      "imageUrl": "https://images.unsplash.com/photo-1533562530973-424ab36f1448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxleWVzaGFkb3clMjBwYWxldHRlfGVufDB8fHx8MTc2NjMzNTY0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyeshadow palette"
+    },
+    {
+      "id": "dior-eyeshadow-1",
+      "description": "Dior 5 Couleurs Couture Eyeshadow Palette",
+      "imageUrl": "https://images.unsplash.com/photo-1547934659-7fa699ef3ce0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxleWVzaGFkb3clMjBwYWxldHRlfGVufDB8fHx8MTc2NjMzNTY0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyeshadow palette"
+    },
+    {
+      "id": "armani-eyeshadow-1",
+      "description": "Giorgio Armani Eye Tint Liquid Eyeshadow",
+      "imageUrl": "https://images.unsplash.com/photo-1644903751036-adeda377f28d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxleWVzaGFkb3clMjBsaXF1aWR8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyeshadow liquid"
+    },
+    {
+      "id": "ct-eyeshadow-1",
+      "description": "Charlotte Tilbury Luxury Eyeshadow Palette",
+      "imageUrl": "https://images.unsplash.com/photo-1625093525885-282384697917?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxleWVzaGFkb3clMjBwYWxldHRlfGVufDB8fHx8MTc2NjMzNTY0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyeshadow palette"
+    },
+    {
+      "id": "ysl-lipstick-2",
+      "description": "YSL The Bold High Pigment Lipstick",
+      "imageUrl": "https://images.unsplash.com/photo-1752394076604-26f226a9c055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "dior-lipstick-2",
+      "description": "Rouge Dior Forever Transfer-Proof Lipstick",
+      "imageUrl": "https://images.unsplash.com/photo-1752394076604-26f226a9c055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsaXBzdGljayUyMHByb2R1Y3R8ZW58MHx8fHwxNzY2Mzk3OTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lipstick product"
+    },
+    {
+      "id": "ct-eyeshadow-2",
+      "description": "Charlotte Tilbury Eyes to Mesmerise Cream Eyeshadow",
+      "imageUrl": "https://images.unsplash.com/photo-1641030863063-695801a62a39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxleWVzaGFkb3clMjBjcmVhbXxlbnwwfHx8fDE3NjYzOTc5OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyeshadow cream"
+    }
+  ]
 }
