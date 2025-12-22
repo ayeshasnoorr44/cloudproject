@@ -9,9 +9,10 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import { products } from '@/lib/products';
 
 const ServiceLayerInputSchema = z.object({
-  query: z.string().describe('A user query.'),
+  query: z.string().describe('A user query about product data.'),
 });
 export type ServiceLayerInput = z.infer<typeof ServiceLayerInputSchema>;
 
@@ -30,9 +31,15 @@ const prompt = ai.definePrompt({
   name: 'serviceLayerPrompt',
   input: {schema: ServiceLayerInputSchema},
   output: {schema: ServiceLayerOutputSchema},
-  prompt: `You are a sophisticated backend assistant powering a 3-tier application. Your role is to process user queries with intelligence and accuracy.
+  prompt: `You are a sophisticated backend assistant. Your role is to analyze product data and answer user queries with intelligence and accuracy.
+
+  Here is the product data retrieved from the database:
+  \`\`\`json
+  {{{productData}}}
+  \`\`\`
   
-Query: {{{query}}}
+  Now, answer the following user query based on the data provided.
+  Query: {{{query}}}
 `,
   model: 'googleai/gemini-1.5-pro',
 });
@@ -44,7 +51,11 @@ const serviceLayerFlow = ai.defineFlow(
     outputSchema: ServiceLayerOutputSchema,
   },
   async input => {
-    const {output} = await prompt(input);
+    // In a real app, this data would be fetched from Firestore.
+    // We are using the local product data for this simulation.
+    const productData = JSON.stringify(products, null, 2);
+
+    const {output} = await prompt({...input, productData});
     return output!;
   }
 );
