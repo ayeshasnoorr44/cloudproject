@@ -29,7 +29,7 @@ export async function processQuery(
 
 const prompt = ai.definePrompt({
   name: 'serviceLayerPrompt',
-  input: {schema: ServiceLayerInputSchema},
+  input: {schema: ServiceLayerInputSchema.extend({ productData: z.string() })},
   output: {schema: ServiceLayerOutputSchema},
   prompt: `You are a sophisticated backend assistant. Your role is to analyze product data and answer user queries with intelligence and accuracy.
 
@@ -41,7 +41,7 @@ const prompt = ai.definePrompt({
   Now, answer the following user query based on the data provided.
   Query: {{{query}}}
 `,
-  model: 'googleai/gemini-1.5-pro',
+  model: 'googleai/gemini-1.5-pro-latest',
 });
 
 const serviceLayerFlow = ai.defineFlow(
