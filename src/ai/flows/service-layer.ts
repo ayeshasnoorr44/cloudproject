@@ -30,9 +30,11 @@ const prompt = ai.definePrompt({
   name: 'serviceLayerPrompt',
   input: {schema: ServiceLayerInputSchema},
   output: {schema: ServiceLayerOutputSchema},
-  prompt: `You are a helpful backend assistant. Process the following query and provide a response.
+  prompt: `You are a sophisticated backend assistant powering a 3-tier application. Your role is to process user queries with intelligence and accuracy.
+  
 Query: {{{query}}}
 `,
+  model: 'googleai/gemini-1.5-pro',
 });
 
 const serviceLayerFlow = ai.defineFlow(
